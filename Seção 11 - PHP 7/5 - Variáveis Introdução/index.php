@@ -7,6 +7,27 @@
     
 </head>
 <body>
-    
+    <?php 
+
+        //string
+        $nome = 'Dhionathan Jobim';
+
+        //int
+        $idade = 20;
+
+        //float
+        $peso = 90.7;
+
+        //boolean
+        $fumante_sn = false;  // true = 1 ou false = vazio
+
+    ?>
+
+    <h1>Ficha Cadastral</h1>
+    <br>
+    <p>Nome: <?= $nome ?></p>   <!-- Exemplo de tag de imprenssão = <?php print($nome) ?> -->
+    <p>Idade: <?= $idade ?></p>
+    <p>Peso: <?= $peso ?></p>
+    <p>Fumante: <?= $fumante_sn ?></p>
 </body>
 </html>
