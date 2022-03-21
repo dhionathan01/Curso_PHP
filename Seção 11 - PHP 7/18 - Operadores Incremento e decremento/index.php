@@ -24,7 +24,7 @@
         echo "O valor Atualizado de  a é $a <br>";
     ?>
 
-<h3>Pós-decremento</h3>
+    <h3>Pós-decremento</h3>
     <?php
         $a = 7;
 
